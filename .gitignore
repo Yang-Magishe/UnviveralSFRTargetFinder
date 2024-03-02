@@ -1,0 +1,4 @@
+# Ignore pre-trained weights and datasets
+*.h5
+*.pt
+/datasets
