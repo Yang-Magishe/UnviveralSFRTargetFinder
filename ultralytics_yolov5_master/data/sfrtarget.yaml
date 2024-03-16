@@ -1,0 +1,16 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# Example usage: python train.py --data sfrtarget.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── sfrtarget  ← downloads here 
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/sfrtarget # dataset root dir
+train: images/train2024 # train images (relative to 'path')
+val: images/train2024 # val images (relative to 'path')
+test: # test images (optional)
+
+# Classes
+names:
+  0: sfrtarget
